@@ -1,0 +1,74 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+#header {
+  background-color: #000114;
+  height: 100px; }
+#wrapper {
+  font-family: Arial, Helvetica, sans-serif; }
+  width: 1441px;
+  margin: 0 auto;
+  border: 1px solid black;
+#icons {
+  margin-top: 30px;
+  margin-left: 102px;
+  float: left; }
+#menu {
+  float: right;
+  margin-left: 37px; }
+  #icons img {
+    width: 150px;
+    height: 50px; }
+#menu-list {
+  list-style: none;
+  margin-top: 42px;
+  margin-right: 38px; }
+#menu-list li {
+  float: left; }
+#menu-list li + li {
+  margin-left: 40px; }
+#menu-list a {
+  text-decoration: none;
+  color: white; }
+
+#title-paq {
+  margin-top: 69px;
+  margin-bottom: 48px;
+  text-align: center; }
+
+#group-img {
+  margin-left: 48px;
+  margin-bottom: 51px; }
+
+#group1-img img {
+  float: left;
+  width: 393px;
+  height: 264px;
+  padding-left: 39px; }
+
+#group2-img {
+  margin-left: 48px;
+  margin-bottom: 100px; }
+
+#group2-img img {
+  float: left;
+  width: 393px;
+  height: 264px;
+  padding-left: 39px; }
+
+#who {
+  height: 557px;
+  background-color: yellowgreen; }
+
+#icons-2 {
+  float: left;
+  border: 1px solid black; }
+
+#our {
+  float: right;
+  border: 1px solid black;
+  width: 548px;
+  color: white;
+  margin-right: 144px;
+  margin-top: 139px; }

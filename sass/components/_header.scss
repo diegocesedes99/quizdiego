@@ -1,0 +1,44 @@
+#header{
+    background-color: #000114;
+    height: 100px;
+}
+
+#icons{
+    margin-top: 30px;
+    margin-left: 102px;
+    float: left;
+}
+#icons img{
+    width: 150px;
+    height: 50px;
+}
+
+#menu{
+    float: right;
+    margin-left: 37px;
+}
+
+#menu-list{
+    list-style: none;
+    margin-top: 42px; 
+    margin-right: 38px;
+    
+}
+
+#menu-list li{
+    float: left ;
+    
+}
+
+#menu-list li + li{
+    margin-left: 40px;
+    
+}
+
+#menu-list a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
